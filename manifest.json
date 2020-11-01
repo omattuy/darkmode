@@ -1,8 +1,8 @@
 {
     "name": "Dark Mode",
     "version": "1.0",
-    "description": "This app allows you to open websites on dark mode.",
-    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "description": "Dark mode extension for Google Chrome.",
+    "permissions": ["activeTab", "declarativeContent", "contextMenus", "storage"],
     "background": {
         "scripts": ["background.js"],
         "persistent": false
